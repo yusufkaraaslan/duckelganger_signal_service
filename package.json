@@ -1,0 +1,19 @@
+{
+  "name": "duck-duck-goose-relay",
+  "version": "1.0.0",
+  "description": "WebSocket relay server for Duck Duck Goose multiplayer game",
+  "main": "relay_server.js",
+  "scripts": {
+    "start": "node relay_server.js",
+    "dev": "nodemon relay_server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
