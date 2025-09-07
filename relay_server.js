@@ -366,6 +366,7 @@ setInterval(() => {
         }
       });
       rooms.delete(code);
+      roomStates.delete(code); // Clean up room state
     }
   });
 }, 60000); // Check every minute
